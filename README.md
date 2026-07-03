@@ -5,7 +5,7 @@ MyChatbot is a Java-based application designed to generate AI-powered responses.
 ## 📸 Project Preview
 You can see the chatbot interface below:
 
-![MyChatbot Interface](Screenshot 2026-07-03 161301.png)
+![MyChatbot Interface](https://github.com/sachanshivali-max/CodeAlpha_AI-Chatbot/blob/main/Screenshot%202026-07-03%20161301.png)
 
 ## 🚀 Features
 * **AI-Powered Chat**: Uses the Groq API to generate real-time AI responses. 🧠
@@ -18,8 +18,25 @@ You can see the chatbot interface below:
 * **Apache Maven** (for project building). 🏗️
 * **IntelliJ IDEA** (or any preferred Java IDE). 💻
 
-## ⚙️ Setup Instructions
+## 💻 Technical Stack
+- **Language**: Java
+- **Build Tool**: Maven
+- **Libraries**:
+     - Jackson Databind (JSON parsing)
+     - Swing (GUI Design)
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/shiva/](https://github.com/shiva/)[Your-Repo-Name].git
+## ▶️ Run the Application
+- Open the project in your IDE.
+- Right-Click on
+   ### src/main/java/org/example/Main.java
+  and select Run.
+
+## 🧠 Lessons Learned
+- **API Integration**: Learned how to perform asynchronous API requests using HttpClient and handle JSON response effectively.
+- **GUI Development**: Gained hande-on experience in building interactive desktop interfaces using Java Swing.
+- **Threading**: Understood the importance of SwingWorker to prevent UI freezing during time-consuming background operations.
+- **Version Control**: Mastered basic git workflows,including handling repository tracking and resolving configuration issues.
+
+## 💡 Why this project matters
+
+This project serves as a foundation for integrating AI into desktop environments, demonstrating that even lightweight Java applications can leverage powerful Large Language Models(LLMs) to provide real-time assistance.
