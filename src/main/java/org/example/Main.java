@@ -22,7 +22,7 @@ public class Main extends JFrame {
         new SwingWorker<String, Void>() {
             @Override
             protected String doInBackground() throws Exception {
-                // Yahan apni API Key daalein
+                // API Key
                 String apiKey = System.getenv("GROQ_API_KEY");
                 String url = "https://api.groq.com/openai/v1/chat/completions";
                 System.out.println(apiKey);
@@ -52,7 +52,6 @@ public class Main extends JFrame {
                     if(root.has("choices") && root.get("choices").isArray() && root.get("choices").size() > 0){
                         aiResponse = root.get("choices").get(0).path("message").path("content").asText();
                     }
-                    // Yahan AI ka jawab UI par dikhayein
                     responseArea.append("You: " + textField.getText() + "\n");
                     responseArea.append("AI: " + aiResponse + "\n\n");
                     textField.setText("");
